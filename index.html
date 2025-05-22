@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Little Bird Toys</h1>  <img src="imgs/Alternate Logo 1.png" class="logo-nav"/>
+    <button class="cart" id="cart-toggle">
+      🛒 <span id="cart-count">0</span>
+    </button>
+  </header>
+
+  <div class="video-container">
+    <video autoplay muted loop playsinline>
+      <source src="3676952-uhd_4096_2160_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  
+  <main>
+    
+    <div class="item-card" data-name="Toy Wooden Plane" data-price="29.99">
+      <img src="imgs/plane1.jpg"/>
+      <h2>Toy Wooden Plane</h2>
+      <p>$29.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="item-card" data-name="Toy Wooden Train" data-price="9.99">
+      <img src="imgs/train2.jpg" />
+      <h2>Toy Wooden Train</h2>
+      <p>$9.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="item-card" data-name="Toy Wooden Boat" data-price="9.99">
+      <img src="imgs/boat2.jpg"/>
+      <h2>Toy Wooden Boat</h2>
+      <p>$9.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="item-card" data-name="Toy Wooden Car" data-price="9.99">
+      <img src="imgs/car1.jpg" />
+      <h2>Toy Wooden Car</h2>
+      <p>$9.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="item-card" data-name="Toy Wooden Blocks" data-price="9.99">
+      <img src="imgs/block2.jpg" />
+      <h2>Toy Wooden Blocks</h2>
+      <p>$9.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </main>
+
+ 
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="hidden">
+    <div class="cart-content">
+      <h3>Your Cart</h3>
+      <ul id="cart-items"></ul>
+      <button id="close-cart">Close</button>
+    </div>
+  </div>
+
+  <div id="cart-modal" class="hidden">
+    <div class="cart-content">
+      <h3>Your Cart</h3>
+      <ul id="cart-items"></ul>
+      <p id="cart-total"><strong>Total:</strong> $0.00</p>
+      <button id="close-cart">Close</button>
+    </div>
+  </div>
+<br>
+<br>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Little Bird Toy Company</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bg-dark text-white p-3 d-flex justify-content-between align-items-center sticky-top">
+    <h1 class="h3 mb-0">The Little Bird Toy Company</h1>
+    <nav>
+      <a href="#company-info" class="btn btn-outline-light">Company Info</a>
+    </nav>
+  </header>
+<a href="#company-info" class="btn btn-outline-light">Company Info</a>
+
+  <main class="container my-5">
+    <section>
+      <h2>Our Story</h2>
+      <p>Little Bird Toys, established in 2018, brings families handcrafted wooden toys designed to spark imagination and slow down playtime. Our heirloom-quality collection is built from sustainable materials and made to last a lifetime, fostering connections between generations.</p>
+    </section>
+
+    <section>
+      <h2>Quality</h2>
+      <p>We believe in the power of simple, safe play. Our handcrafted toys are free from plastic and batteries, and made with sustainable Baltic birch wood. Each piece is meticulously crafted and rigorously tested in our Toms River, NJ workshop to meet the highest safety standards (ASTM & CA-Prop 65) and ensure unmatched durability.</p>
+    </section>
+
+    <section>
+      <h2>Sustainability</h2>
+      <p>At Little Bird Toys, we are committed to eco-friendly practices. Our wooden toys are designed for longevity, and our manufacturing process minimizes waste and supports the US economy.</p>
+    </section>
+
+    <section>
+      <h2>Visit Us</h2>
+      <p>Become part of the Little Bird Toys family! We love interacting with our customers and sharing the joy of our handcrafted toys. Visit our Toms River, NJ store to explore our charming play space and meet the team behind the magic.</p>
+    </section>
+
+    <section id="company-info" class="pt-5 mt-5">
+      <h2>Contact Information</h2>
+      <ul>
+        <li><strong>Address:</strong> 43 Main St, Toms River, NJ 08753</li>
+        <li><strong>Phone:</strong> (732) 555-1234</li>
+        <li><strong>Store Hours:</strong>
+          <ul>
+            <li>Weekdays: 7:00 AM to 4:30 PM</li>
+            <li>Saturday: 10:00 AM to 2:00 PM</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Social Media</h3>
+      <ul>
+        <li><strong>Facebook:</strong> <a href="#">LittleBirdToyCo</a></li>
+        <li><strong>Instagram:</strong> <a href="#">@LittleBirdToyCo</a></li>
+        <li><strong>Twitter:</strong> <a href="#">@LittleBirdToys</a></li>
+        <li><strong>Snapchat:</strong> LittleBirdToys</li>
+      </ul>
+
+      <h3>Allowable Imagery</h3>
+      <ul>
+        <li>High-quality photos of each toy, showcasing its features and potential for imaginative play.</li>
+        <li>Images of the toy-making process in the workshop, highlighting craftsmanship and materials.</li>
+        <li>Photos of happy children playing with Little Bird Toys in various settings (at home, in the bathtub, outdoors).</li>
+        <li>Images of the Toms River, NJ store facade and inviting play space.</li>
+        <li>Candid shots of the founders/siblings interacting with customers.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-light text-center py-3">
+    <p>&copy; 2025 The Little Bird Toy Company</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
